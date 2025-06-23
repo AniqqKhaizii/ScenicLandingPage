@@ -84,7 +84,7 @@ const ChromaGrid = ({
 			}}
 		>
 			<div>
-				<h1 className="text-6xl font-bold font-michroma text-center drop-shadow-lg">
+				<h1 className="text-[clamp(2rem,2vw,3.5rem)] font-bold font-michroma text-center drop-shadow-lg">
 					SCENIC - Integrated Operation Center
 				</h1>
 				<hr className="my-1 h-[2px] w-full border-none bg-gradient-to-r from-transparent via-white to-transparent" />

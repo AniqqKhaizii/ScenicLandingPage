@@ -24,6 +24,12 @@ const items = [
 		subtitle: "Company Name",
 		url: "",
 	},
+	{
+		image: "https://ioc.spkb.com.my/ComingSoon.jpg",
+		title: "System Name",
+		subtitle: "Company Name",
+		url: "",
+	},
 ];
 
 export default function App() {
@@ -43,7 +49,7 @@ export default function App() {
 			</video>
 
 			{/* Content */}
-			<div className="relative z-10 flex flex-col min-h-screen backdrop-blur-md items-center justify-center text-white starting:translate-y-10 translation-y-0 transition-transform duration-700">
+			<div className="relative z-10 px-6 lg:py-12 py-24 flex flex-col min-h-screen backdrop-blur-md items-center justify-center text-white starting:translate-y-10 translation-y-0 transition-transform duration-700">
 				<ChromaGrid
 					className="w-full h-full"
 					items={items}
