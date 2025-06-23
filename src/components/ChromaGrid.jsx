@@ -97,14 +97,14 @@ const ChromaGrid = ({
 						key={i}
 						onMouseMove={handleCardMove}
 						onClick={() => handleCardClick(c.url)}
-						className="group relative flex flex-col w-[300px] rounded-[20px] overflow-hidden border hover:border-purple-500 hover:scale-105 border-white/40 shadow-lg transition-all duration-300 cursor-pointer"
+						className="group relative flex flex-col h-[400px] w-[300px] rounded-[20px] overflow-hidden border hover:border-purple-500 hover:scale-105 border-white/40 shadow-lg transition-all duration-300 cursor-pointer"
 						style={{
 							"--card-border": c.borderColor || "transparent",
-							"--spotlight-color": "rgba(255,255,255,0.3)",
+							"--spotlight-color": "rgba(255,255,255,0.2)",
 						}}
 					>
 						<div
-							className="absolute inset-0 pointer-events-none transition-opacity duration-500 z-20 opacity-0 group-hover:opacity-100"
+							className="absolute inset-0 pointer-events-none transition-opacity duration-500 z-20 opacity-0 group-hover:bg-blue-500 group-hover:opacity-100"
 							style={{
 								background:
 									"radial-gradient(circle at var(--mouse-x) var(--mouse-y), var(--spotlight-color), transparent 70%)",
@@ -115,15 +115,18 @@ const ChromaGrid = ({
 								src={c.image}
 								alt={c.title}
 								loading="lazy"
-								className="w-full h-full object-cover rounded-[10px] drop-shadow-md"
+								className={` w-full h-full ${c.imgCn} rounded-[10px] drop-shadow-md `}
 							/>
 						</div>
-						<footer className="relative z-10 p-3 text-white font-sans flex flex-col">
+						<footer className="relative z-50 p-3 text-white font-sans flex flex-col">
 							<h3 className="m-0 text-[1.05rem] font-semibold">{c.title}</h3>
 							<hr className="my-1 h-[1px] border-none bg-gradient-to-r from-transparent via-white to-transparent" />
-							<p className="m-0 text-[0.85rem] opacity-85 italic">
-								{c.subtitle}
-							</p>
+							<div className="flex items-center justify-between">
+								<p className="m-0 text-[0.85rem] opacity-85 italic">
+									{c.subtitle}
+								</p>
+								<img src={c.logoUrl} alt={c.subtitle} className="h-6" />
+							</div>
 						</footer>
 					</article>
 				))}
