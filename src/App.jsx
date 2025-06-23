@@ -48,7 +48,8 @@ const items = [
 		imgCn: "object-stretch",
 	},
 	{
-		image: "/pedestrians.webp",
+		image:
+			"https://investinestonia.com/wp-content/uploads/smart-pedestrian-crosswalk-photo-by-bercman-technologies.jpg",
 		title: "Smart Pedestrian",
 		subtitle: "Vectolabs Technologies Sdn Bhd",
 		url: "https://pedestrian.vectolabs.com/auth/login",
