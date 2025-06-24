@@ -10,6 +10,33 @@ const items = [
 	},
 	{
 		image:
+			"https://investinestonia.com/wp-content/uploads/smart-pedestrian-crosswalk-photo-by-bercman-technologies.jpg",
+		title: "Smart Pedestrian",
+		subtitle: "Vectolabs Technologies Sdn Bhd",
+		url: "https://pedestrian.vectolabs.com/auth/login",
+		logoUrl:
+			"https://www.vectolabs.com/wp-content/uploads/2023/11/Vectolabs-No-Subtext-150x84.png",
+		imgCn: "object-cover",
+	},
+	{
+		image:
+			"https://www.monash.edu/__data/assets/image/0011/3817028/smart-city-illustration.jpg",
+		title: "City Sense - The Living City",
+		subtitle: "SCS ",
+		url: "https://gis2u.mpkj.gov.my/",
+		logoUrl: "https://www.scs.my/assets/images/logo-normal-scs.png",
+		imgCn: "object-cover",
+	},
+	{
+		image: "https://poc.mdanalytic.my/assets/MD_logo-BT0-fTGv.png",
+		title: "MD Analytic",
+		subtitle: "Map2U",
+		url: "https://poc.mdanalytic.my/",
+		logoUrl: "https://www.map2u.com.my/images/LOGO-MAP2U-white-p-500.png",
+		imgCn: "object-contain",
+	},
+	{
+		image:
 			"https://upcdn.io/kW15c1V/image/platform/4jhvF76e3U-denisa-elena-ficau-34OrHR9jK6o-unsplash.jpg.crop?w=600&amp;h=600&amp;fit=max&amp;q=70",
 		title: "Smart Food Storage",
 		subtitle: "Favoriot",
@@ -47,16 +74,7 @@ const items = [
 		logoUrl: "https://www.bateriku.com/favicon-32x32.png",
 		imgCn: "object-stretch",
 	},
-	{
-		image:
-			"https://investinestonia.com/wp-content/uploads/smart-pedestrian-crosswalk-photo-by-bercman-technologies.jpg",
-		title: "Smart Pedestrian",
-		subtitle: "Vectolabs Technologies Sdn Bhd",
-		url: "https://pedestrian.vectolabs.com/auth/login",
-		logoUrl:
-			"https://www.vectolabs.com/wp-content/uploads/2023/11/Vectolabs-No-Subtext-150x84.png",
-		imgCn: "object-cover",
-	},
+
 	{
 		image: "/scs-video.jpg",
 		title: "Secure Video Conference",
@@ -65,15 +83,7 @@ const items = [
 		logoUrl: "https://www.scs.my/assets/images/logo-normal-scs.png",
 		imgCn: "object-cover",
 	},
-	{
-		image:
-			"https://www.monash.edu/__data/assets/image/0011/3817028/smart-city-illustration.jpg",
-		title: "City Sense - The Living City",
-		subtitle: "SCS ",
-		url: "https://gis2u.mpkj.gov.my/",
-		logoUrl: "https://www.scs.my/assets/images/logo-normal-scs.png",
-		imgCn: "object-cover",
-	},
+
 	{
 		image:
 			"https://img.freepik.com/free-photo/cctv-security-camera_1359-621.jpg?semt=ais_hybrid&w=740",
@@ -111,14 +121,7 @@ const items = [
 			"https://mobiva.net/wp-content/uploads/2021/03/mobiva-logo-top.png",
 		imgCn: "object-contain",
 	},
-	{
-		image: "https://poc.mdanalytic.my/assets/MD_logo-BT0-fTGv.png",
-		title: "MD Analytic",
-		subtitle: "Map2U",
-		url: "https://poc.mdanalytic.my/",
-		logoUrl: "https://www.map2u.com.my/images/LOGO-MAP2U-white-p-500.png",
-		imgCn: "object-contain",
-	},
+
 	{
 		image: "https://www.map2u.com.my/images/LOGO-MAP2U-white-p-500.png",
 		title: "Portal Map2U",

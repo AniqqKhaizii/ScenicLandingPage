@@ -76,7 +76,7 @@ const ChromaGrid = ({
 			ref={rootRef}
 			onPointerMove={handleMove}
 			onPointerLeave={handleLeave}
-			className={`relative w-full h-full flex flex-col justify-center items-center gap-12 bg-transparent ${className}`}
+			className={`relative w-full h-full flex flex-col justify-center items-center gap-16 bg-transparent ${className}`}
 			style={{
 				"--r": `${radius}px`,
 				"--x": "50%",
@@ -90,7 +90,7 @@ const ChromaGrid = ({
 				<hr className="my-1 h-[2px] w-full border-none bg-gradient-to-r from-transparent via-white to-transparent" />
 			</div>
 			<div
-				className={`relative w-full flex flex-wrap justify-center items-center gap-12 bg-transparent`}
+				className={`relative w-full max-w-screen-2xl flex flex-wrap justify-center items-center gap-12 bg-transparent`}
 			>
 				{data.map((c, i) => (
 					<article
