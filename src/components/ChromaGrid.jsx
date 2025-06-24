@@ -90,7 +90,7 @@ const ChromaGrid = ({
 				<hr className="my-1 h-[2px] w-full border-none bg-gradient-to-r from-transparent via-white to-transparent" />
 			</div>
 			<div
-				className={`relative grid grid-cols-4 justify-center items-center gap-24 bg-transparent`}
+				className={`relative w-full max-w-screen-2xl flex flex-wrap justify-center items-center gap-10 bg-transparent`}
 			>
 				{data.map((c, i) => (
 					<article
